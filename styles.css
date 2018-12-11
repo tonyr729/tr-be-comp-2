@@ -1,0 +1,108 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 1.8fr;
+  grid-template-areas: "header""body";
+}
+
+.header {
+  background-color: #222;
+  grid-area: header;
+  display: flex;
+}
+
+.header_group {
+  display: flex;
+  margin: 55px 10px 0px;
+}
+
+.nav_icon {
+  height: 10px;
+  color: #efefef;
+  padding-right: 5px;
+}
+
+.fa-user-alt {
+  color: #2ab9cc;
+}
+
+.fa-list-ul {
+  color: #2ab9cc;
+}
+
+.fa-arrow-alt-circle-right {
+  color: #fff;
+}
+
+.nav_text {
+  margin: 0;
+  color: #efefef;
+}
+
+.body_container {
+  background-color: #efefef;
+}
+
+.card_section {
+  grid-area: body;
+  display: flex;
+  flex-flow: wrap row;
+}
+
+.card {
+  background-color: #fff;
+  width: 330px;
+  margin: 5px;
+  height: 450px;
+}
+
+.card_photo {
+  background-color: rgba(255, 0, 0, 0.308);
+  height: 35%;
+}
+
+.card_body p {
+  padding-left: 25px;
+}
+
+.bg_1 {
+  background-image: url(https://sg.fiverrcdn.com/photo3s/1934697/original/11.jpg?1376739244);
+  background-size: 330px;
+}
+
+.bg_2 {
+  background-image: url(https://iso.500px.com/wp-content/uploads/2015/03/business_cover.jpeg);
+  background-size: 330px;
+}
+
+.bg_3 {
+  background-image: url(https://www.kiplinger.com/kipimages/pages/18048.jpg);
+  background-size: 330px;
+}
+
+.bg_4 {
+  background-image: url(https://assets3.thrillist.com/v1/image/1299823/size/tmg-article_default_mobile.jpg);
+  background-size: 330px;
+}
+
+.bg_5 {
+  background-image: url(https://assets.entrepreneur.com/content/3x2/2000/20160602195129-businessman-writing-planning-working-strategy-office-focus-formal-workplace-message.jpeg);
+  background-size: 330px;
+}
+
+.bg_6 {
+  background-image: url(http://www.benjenkinsphotography.co.uk/wp-content/uploads/2014/05/MG_0182-650x360.jpg);
+  background-size: 330px;
+}
+
+.bg_7 {
+  background-image: url(https://www.eharmony.co.uk/dating-advice/wp-content/uploads/2011/04/profilephotos-960x640.jpg);
+  background-size: 330px;
+}
+
+.bg_8 {
+ background-image: url(https://img.kpopmap.com/2018/06/ahn-hyoseop-profile-cover.jpg);
+  background-size: 330px;
+}
+
+
